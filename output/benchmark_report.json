@@ -1,0 +1,35 @@
+{
+  "openvino_version": "2026.3.1-22476-759c5a6ab8c-releases/2026/3",
+  "host": "MSI",
+  "cpu": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+  "model": "mlp_bc_fp16.xml (FP16 IR) + mlp_bc_fp32.xml (FP32 IR)",
+  "parity_mse_vs_torch": 6.82e-09,
+  "parity_note": "in-distribution samples; random N(0,1) inputs are off-manifold and invalid for parity",
+  "results": {
+    "CPU_FP32": {
+      "p50_ms": 0.09,
+      "p90_ms": 0.147,
+      "p99_ms": 0.165,
+      "fps": 9844.6,
+      "iters": 200
+    },
+    "CPU_FP16": {
+      "p50_ms": 0.081,
+      "p90_ms": 0.096,
+      "p99_ms": 0.155,
+      "fps": 11412.5,
+      "iters": 200
+    },
+    "GPU.0_FP16": {
+      "p50_ms": 0.438,
+      "p90_ms": 0.902,
+      "p99_ms": 1.283,
+      "fps": 1780.9,
+      "iters": 200
+    },
+    "GPU.1": {
+      "status": "unstable on this host: openvino_intel_gpu_plugin native abort (create_plugin_engine); excluded from claims"
+    }
+  },
+  "device_note": "GPU.0 = Intel UHD Graphics 630 (iGPU) via OpenVINO GPU plugin; CPU = Intel i7-9750H. NPU not present on this host."
+}

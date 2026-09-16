@@ -1,0 +1,142 @@
+[
+  {
+    "seed": 0,
+    "full": false,
+    "steps": 1200,
+    "mug_fill": 0.0,
+    "flags": {
+      "drawer": false,
+      "retrieved": false,
+      "handoff": false,
+      "placed": false,
+      "pour": false,
+      "mug": false
+    }
+  },
+  {
+    "seed": 1,
+    "full": false,
+    "steps": 235,
+    "mug_fill": 0.0,
+    "flags": {
+      "drawer": false,
+      "retrieved": false,
+      "handoff": false,
+      "placed": false,
+      "pour": false,
+      "mug": false
+    }
+  },
+  {
+    "seed": 2,
+    "full": false,
+    "steps": 329,
+    "mug_fill": 0.0,
+    "flags": {
+      "drawer": true,
+      "retrieved": false,
+      "handoff": false,
+      "placed": false,
+      "pour": false,
+      "mug": false
+    }
+  },
+  {
+    "seed": 3,
+    "full": false,
+    "steps": 1200,
+    "mug_fill": 0.0,
+    "flags": {
+      "drawer": false,
+      "retrieved": false,
+      "handoff": false,
+      "placed": false,
+      "pour": false,
+      "mug": false
+    }
+  },
+  {
+    "seed": 4,
+    "full": false,
+    "steps": 182,
+    "mug_fill": 0.0,
+    "flags": {
+      "drawer": false,
+      "retrieved": false,
+      "handoff": false,
+      "placed": false,
+      "pour": false,
+      "mug": false
+    }
+  },
+  {
+    "seed": 5,
+    "full": false,
+    "steps": 132,
+    "mug_fill": 0.0,
+    "flags": {
+      "drawer": false,
+      "retrieved": false,
+      "handoff": false,
+      "placed": false,
+      "pour": false,
+      "mug": false
+    }
+  },
+  {
+    "seed": 6,
+    "full": false,
+    "steps": 275,
+    "mug_fill": 0.0,
+    "flags": {
+      "drawer": false,
+      "retrieved": false,
+      "handoff": false,
+      "placed": false,
+      "pour": false,
+      "mug": false
+    }
+  },
+  {
+    "seed": 7,
+    "full": false,
+    "steps": 168,
+    "mug_fill": 0.0,
+    "flags": {
+      "drawer": false,
+      "retrieved": false,
+      "handoff": false,
+      "placed": false,
+      "pour": false,
+      "mug": false
+    }
+  },
+  {
+    "seed": 8,
+    "full": false,
+    "steps": 202,
+    "mug_fill": 0.0,
+    "flags": {
+      "drawer": false,
+      "retrieved": false,
+      "handoff": false,
+      "placed": false,
+      "pour": false,
+      "mug": false
+    }
+  },
+  {
+    "seed": 9,
+    "full": false,
+    "steps": 1200,
+    "mug_fill": 0.0,
+    "flags": {
+      "drawer": false,
+      "retrieved": false,
+      "handoff": false,
+      "placed": false,
+      "pour": false,
+      "mug": false
+    }
+  }
+]

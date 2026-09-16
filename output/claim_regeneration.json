@@ -1,0 +1,4 @@
+{
+  "_comment": "N3 claim ledger template. Every judge-visible performance/success number must have an entry: value + run-id + artifact + exact command that produced it. Empty until first real runs.",
+  "claims": []
+}

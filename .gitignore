@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+output/*.mp4
+output/*.json
+# F-A2: proof artifacts required by K1/N3/N4 must ship with the repo.
+!output/claim_regeneration.json
+!output/benchmark_report.json
+!output/10_seed_evaluation_report.json
+!output/10_seed_evaluation_report_autonomous.json
+!output/env_snapshot.json
+weights/
+openvino_models/

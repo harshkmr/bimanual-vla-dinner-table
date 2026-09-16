@@ -1,0 +1,9 @@
+{
+  "_comment": "N1 single source of truth for the confidence router. All values are literals: tune here, never in code.",
+  "tau": 0.65,
+  "window_n": 5,
+  "chunk_length": 50,
+  "policy_selection": "smolvla-primary",
+  "confidence_proxy": "mean(last-N chunk confidences) from the policy harness scorer (ensemble variance or planner score)",
+  "kill_switch_deadline": "TBD-calendar-date-freeze-minus-2 (N2: record in docs/FREEZE_CHANGELOG.md)"
+}
