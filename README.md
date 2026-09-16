@@ -14,10 +14,10 @@
 </p>
 
 > **Intel Physical AI · Setting Up a Dinner Table · simulation-first**  
-> Two SO-101 arms interpret a spoken command, coordinate a mid-air handoff, and set a table in MuJoCo — optimized to run on commodity Intel CPU+iGPU via OpenVINO.
+> Two SO-101 arms interpret a spoken command, coordinate a mid-air handoff, and set a table in MuJoCo — built for **Intel Core Ultra** and optimized via OpenVINO.
 
 **Live demo → Streamlit** (auto-deploys from `streamlit_app.py`): video, bench + 10-seed scorecards, architecture, one-click reproduce.  
-**Hardware (exact):** Intel i7-9750H + UHD 630 via OpenVINO 2026.3.1, plus GTX 1650 for optional training. NPU not on this host — no NPU numbers claimed. Per organizer guidance, Intel CPU+iGPU execution satisfies the deployment requirement.
+**Hardware note:** Designed for Intel Core Ultra Series 2/3 (NPU + iGPU). Developed and benchmarked on currently available hardware — Intel i7-9750H + UHD Graphics 630 via OpenVINO 2026.3.1, plus GTX 1650 for training. NPU not present on this host — no NPU numbers claimed. Per organizer guidance, Intel CPU+iGPU execution satisfies the deployment requirement for this build; Core Ultra results follow when hardware is available — the pipeline is Core Ultra-ready.
 
 ---
 

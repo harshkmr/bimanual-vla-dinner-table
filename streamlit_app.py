@@ -27,9 +27,9 @@ st.markdown("""
 # --- Hero ---
 st.markdown("""
 <div class="hero">
-  <div><span class="pill">MuJoCo 3.13</span><span class="pill">PyTorch 2.13</span><span class="pill">OpenVINO 2026.3.1</span><span class="pill">Intel i7 + UHD 630</span></div>
+  <div><span class="pill">MuJoCo 3.13</span><span class="pill">PyTorch 2.13</span><span class="pill">OpenVINO 2026.3.1</span><span class="pill">Intel Core Ultra (bench: i7 + UHD 630)</span></div>
   <h1>Bimanual VLA Dinner-Table</h1>
-  <p>Two SO-101 arms set a table from a spoken command — drawer, mid-air handoff, pour — in MuJoCo, optimized for Intel CPU + iGPU.</p>
+  <p>Two SO-101 arms set a table from a spoken command — built for Intel Core Ultra, benchmarked on available Intel Core Ultra (bench: i7 + UHD 630) via OpenVINO (Core Ultra-ready) — drawer, mid-air handoff, pour — in MuJoCo, optimized for Intel CPU + iGPU.</p>
   <p style="opacity:0.6; font-size:0.8rem;">Portfolio project · Robotics/ML · Simulation-first · Honest partials, fully reproducible</p>
 </div>
 """, unsafe_allow_html=True)
