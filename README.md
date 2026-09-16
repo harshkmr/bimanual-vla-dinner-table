@@ -110,5 +110,3 @@ streamlit run streamlit_app.py
 Core Ultra hardware + SmolVLA finetune on the LeRobot dataset → DAgger/ACT with contact learning → NPU target. The pipeline is built for it; the sprint proves the scaffold.
 
 ---
-
-<p align="center"><i>Portfolio project — not a competition submission. Original V3 plans frozen with the repo for review.</i></p>
