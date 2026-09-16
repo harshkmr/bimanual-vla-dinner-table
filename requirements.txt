@@ -1,2 +1,3 @@
-# Pinned toolchain (convert == runtime). Full deps land in TICKET-01 execution.
 openvino==2026.3
+streamlit
+pandas
